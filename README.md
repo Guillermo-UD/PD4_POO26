@@ -4,7 +4,10 @@
 Sistema desarrdo bajo el patron de arquitectura Modelo-Vista-Controlador (MVC), dise{ado para la gestion de stands. El proyecto se conecta a una base de datos local en MySQL y gestiona sus dependencias mediante Maven.
 
 
-cambios realizados (Separacion de las conexiones y los querys en clases y archivos distintos)
+cambios realizados en clase (separacion de las conexiones y los querys en clases y archivos distintos)
+
+**ConexionDB:** conexion y lectura de credenciales
+**RepositorioFiley:** aqui se encuentran los queries 
 ## Estructura del Repositorio
 
 El codigo fuente principal se encuentra organizado de la siguiente manera:
